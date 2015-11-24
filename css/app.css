@@ -1,14 +1,42 @@
-header {
-	border-bottom:1px solid #e3e3e3;
-	text-align: center
+@import url(https://fonts.googleapis.com/css?family=Abril+Fatface);
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300);
+
+p{
+	font-size:1em;
+	font-family: 'Fira Sans', sans-serif;
+	margin-right: 1.5em;
+	width:83em;
 }
 
-footer {
-	position:fixed;
-	bottom:10px;
-	border-top:1px solid #e3e3e3;
-	width:100%;
-	left:0px;
-	text-align:center;
-	padding:10px;
+
+
+h1{
+	font-size:5em;
+	font-family: 'Abril Fatface', cursive;
+	margin-top: .6em;
+	margin-left: .9em;
+	margin-right:5.8em;
+	display: inline-block;
+
 }
+
+h2{
+	display: inline-block;
+	font-size:1.2em;
+	margin-left: 4em;
+	font-family: 'Fira Sans', sans-serif;
+
+}
+
+h1:hover, h2:hover{
+    color:#96DCC8;
+}
+
+footer{
+	border-top:1px solid #96DCC8;
+	padding-top:1em;
+	margin-top:6em;
+	margin-bottom:1em;
+	color:black;
+}
+
